@@ -37,6 +37,5 @@ export function main(event, context, callback){
       body: JSON.stringify(params.Item)
     }
     callback(null, response)
-  }
-  )
+  })
 }
