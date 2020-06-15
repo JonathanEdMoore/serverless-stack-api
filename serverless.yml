@@ -90,7 +90,7 @@ functions:
   billing:
     handler: billing.main
     events:
-      - https:
+      - http:
           path: billing
           method: post
           cors: true
